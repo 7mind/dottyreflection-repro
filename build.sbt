@@ -6,6 +6,6 @@ lazy val `izumi-reflect` = project.in(file("."))
         "-noindent",
         "-language:implicitConversions"
       ),
-    crossScalaVersions := Seq("0.24.0-RC1"),
+    crossScalaVersions := Seq("0.25.0-RC2"),
     scalaVersion := crossScalaVersions.value.head,
   )
